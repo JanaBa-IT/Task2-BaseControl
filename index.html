@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Task2-BaseControl.css">
+</head>
+
+<body>
+<center style="margin-top:0%">
+<h1>Robot Control Panel</h1>
+</center>
+
+<form action="Task2-BaseControl.php" method="POST">
+    <center style="margin-top:0%">
+    <div class="slidecontainer">
+        <big><b>First engine:</b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL1" name="CONTROL1">
+        <b>Value: <span id="value1"></span></b>
+    </div>
+    
+    <div class="slidecontainer">
+        <big><b>Second engine: </b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL2" name="CONTROL2">
+        <b>Value: <span id="value2"></span></b>
+    </div>
+    
+    <div class="slidecontainer">
+        <big><b>Third engine: </b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL3" name="CONTROL3">
+        <b>Value: <span id="value3"></span></b>
+    </div>
+    
+    <div class="slidecontainer">
+        <big><b>Fourth engine: </b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL4" name="CONTROL4">
+        <b>Value: <span id="value4"></span></b>
+    </div>
+    
+    <div class="slidecontainer">
+        <big><b>Fifth engine: </b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL5" name="CONTROL5">
+        <b>Value: <span id="value5"></span></b>
+    </div>
+    
+    <div class="slidecontainer">
+        <big><b>Sixth engine: </b></big>
+        <input type="range" min="1" max="360" value="180" class="slider" id="CONTROL6" name="CONTROL6">
+        <b>Value: <span id="value6"></span></b>
+    </div>
+</center>
+    
+<center style="margin-top:2%">
+    <input type="submit" value="FORWARD" class="button" name="direction">
+</center>
+    <center style="margin-top:1%">
+    <input type="submit" value="LEFT" class="button" name="direction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="STOP" class="button" name="direction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="RIGHT" class="button" name="direction">
+    </center>
+
+    <center style="margin-top:1%">
+    <input type="submit" value="BACKWARD" class="button" name="direction">
+    </center>
+
+    <script src="Task2-BaseControl.js"></script>
+</form>
+
+
+</body>
+</html>

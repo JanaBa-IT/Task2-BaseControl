@@ -1,0 +1,2 @@
+# Task2-BaseControl
+ User experience testing and improvement for robot control system: Sub-tasks of this task: Control interface design for moving the base, Create a database control database, Connecting the database with the control interface, Create php pages to connect the database with the hardware (the database), Combine the arm control panel with the base control panel in one interface, Convert the interface or display it as a mobile web view.
