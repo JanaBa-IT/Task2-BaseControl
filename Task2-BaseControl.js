@@ -35,6 +35,7 @@ slider4.oninput = function() { output4.innerHTML = this.value; }
 slider5.oninput = function() { output5.innerHTML = this.value; }
 
 slider6.oninput = function() { output6.innerHTML = this.value; }
+ 
   window.watsonAssistantChatOptions = {
       integrationID: "60f413b1-2924-46e6-a4f3-ef3ec8be39f5", // The ID of this integration.
       region: "eu-gb", // The region your integration is hosted in.
